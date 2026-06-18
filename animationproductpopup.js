@@ -1,0 +1,10 @@
+.popup{
+position:fixed;
+top:20px;
+right:20px;
+background:green;
+color:white;
+padding:15px;
+display:none;
+border-radius:10px;
+}
