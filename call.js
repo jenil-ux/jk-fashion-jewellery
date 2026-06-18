@@ -1,0 +1,2 @@
+addCart();
+showPopup();
