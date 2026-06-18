@@ -1,0 +1,13 @@
+let count = localStorage.getItem("cartCount") || 0;
+
+document.getElementById("count").innerText = count;
+
+function addCart(){
+
+count++;
+
+localStorage.setItem("cartCount",count);
+
+document.getElementById("count").innerText = count;
+
+}
